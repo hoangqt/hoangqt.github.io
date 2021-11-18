@@ -1,0 +1,50 @@
+---
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+version: 2
+
+name: Hoang Tran
+email: donotreply@gmail.com
+website: hoangqt.github.io
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+github_username: hoangqt
+
+about_title: About
+about_profile_image: images/profile.jpg
+about_content: |
+  Flexible team member with background in development, QA and infrastructure.
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: IBM
+        link: www.ibm.com
+        sub_title: Software Developer
+        caption: April 1998 - Present
+        description: |
+          Fixing and breaking software at the same time.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Carleton University
+        caption: 1993 - 1996
+        sub_title: CS
+        description:
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
