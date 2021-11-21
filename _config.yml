@@ -1,0 +1,65 @@
+# Simple single page resume based on https://github.com/sproogen/modern-resume-theme
+#
+
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Hoang Tran
+title: Staf Software Developer
+email: hoangqt@gmail.com
+website: hoangqt.github.io
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+github_username: hoangqt
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Flexible team member with background in software, cloud and infrastructure. Forever learner.
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: IBM
+        link: www.ibm.com
+        # link_text: boringcompany.com
+        sub_title: Staff Software Developer
+        caption: April 1998 - Present
+        description: | # this will include new lines to allow paragraphs
+          Fixing and breaking software at the same time.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Carleton University
+        caption: 1993 - 1996
+        sub_title: Computer Science
+        description: | # this will include new lines to allow paragraphs
+          Finding myself while trying to get a CS.
+
+# Footer
+# TODO: adjust index.html to disable
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
