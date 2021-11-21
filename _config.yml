@@ -21,7 +21,7 @@ darkmode: true
 github_username: hoangqt
 
 # About Section
-# about_title: About Me
+about_title: About
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Flexible team member with background in software, cloud and infrastructure. Forever learner.
@@ -48,11 +48,6 @@ content:
         sub_title: Computer Science
         description: | # this will include new lines to allow paragraphs
           Finding myself while trying to get a CS.
-
-# Footer
-# TODO: adjust index.html to disable
-footer_show_references: false
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
