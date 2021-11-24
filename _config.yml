@@ -10,7 +10,6 @@ version: 2
 
 # Personal info
 name: Hoang Tran
-title: Staf Software Developer
 email: hoangqt@gmail.com
 website: hoangqt.github.io
 
@@ -33,8 +32,7 @@ content:
       - layout: left
         title: IBM
         link: www.ibm.com
-        # link_text: boringcompany.com
-        sub_title: Staff Software Developer
+        sub_title: Software Sherpa
         caption: April 1998 - Present
         description: | # this will include new lines to allow paragraphs
           Fixing and breaking software at the same time.
