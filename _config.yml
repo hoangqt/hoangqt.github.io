@@ -10,7 +10,7 @@ version: 2
 
 # Personal info
 name: Hoang Tran
-email: hoangqt@gmail.com
+email: donotreply@gmail.com
 website: hoangqt.github.io
 
 # Dark Mode (true/false/never)
@@ -23,7 +23,7 @@ github_username: hoangqt
 about_title: About
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Flexible team member with background in software, cloud and infrastructure. Forever learner.
+  Flexible team member with background in software, cloud and infrastructure. Lifelong learner.
 
 content:
   - title: Experience # Title for the section
@@ -43,9 +43,9 @@ content:
       - layout: left
         title: Carleton University
         caption: 1993 - 1996
-        sub_title: Computer Science
+        sub_title: CS
         description: | # this will include new lines to allow paragraphs
-          Finding myself while trying to get a CS.
+          Finding myself while trying to get a degree.
 
 # Build settings
 remote_theme: sproogen/resume-theme
