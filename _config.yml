@@ -39,6 +39,13 @@ content:
         sub_title: CS
         description:
 
+  - title: Extracurricular activities
+    layout: list
+    content:
+      - layout: left
+        title: Long distance walking
+        description:
+
 # Build settings
 remote_theme: sproogen/resume-theme
 
