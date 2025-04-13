@@ -44,6 +44,8 @@ content:
     content:
       - layout: left
         title: Long distance walking
+        caption: 2023 - Present
+        sub_title: 1k+
         description:
 
 # Build settings
