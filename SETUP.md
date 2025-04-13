@@ -8,7 +8,6 @@ theme](https://github.com/sproogen/modern-resume-theme).
 ```bash
 gem install jekyll bundler modern-resume-theme
 ```
-
 ### Steps
 
 - Download the
