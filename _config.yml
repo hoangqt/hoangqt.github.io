@@ -26,7 +26,8 @@ content:
         title: Vibe coding
         caption: April 2025-present
         description:
-
+          Working on mini projects using AI tooling.
+      - layout: left
         title: IBM
         link: www.ibm.com
         sub_title: Software Developer
