@@ -23,6 +23,10 @@ content:
     layout: list
     content:
       - layout: left
+        title: Vibe coding
+        caption: April 2025-present
+        description:
+
         title: IBM
         link: www.ibm.com
         sub_title: Software Developer
