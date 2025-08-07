@@ -16,7 +16,13 @@ github_username: hoangqt
 about_title: About
 about_profile_image: images/iglesias.jpg
 about_content: |
-  Flexible team member with background in development, QA and infrastructure.
+  Flexible team member with background in development, DevOps and QA.
+
+  What I bring to the table:
+
+    - Strong problem-solving skills
+    - Team player
+    - Beginner's mind
 
 content:
   - title: Experience
@@ -25,24 +31,20 @@ content:
       - layout: left
         title: Vibe coding
         caption: April 2025-present
-        description:
+        description: |
           Working on mini projects using AI tooling.
+          - [Text editor](https://github.com/hoangqt/kilo)
+          - [Ansible](https://github.com/hoangqt/ansible)
+          - [Terraform](https://github.com/hoangqt/terraform)
+          - [Towers of Hanoi](https://github.com/hoangqt/towers-of-hanoi-vibe)
+
       - layout: left
         title: IBM
         link: www.ibm.com
         sub_title: Software Developer
         caption: April 1998 - April 2025
         description: |
-          Fixing and breaking software at the same time.
-
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: Carleton University
-        caption: 1993 - 1996
-        sub_title: CS
-        description:
+          Worked on IBM Cognos Analytics and IBM QRadar SIEM.
 
   - title: Extracurricular activities
     layout: list
@@ -51,6 +53,17 @@ content:
         title: Long distance walking
         caption: 2023 - Present
         sub_title: 1k+
+        description: |
+          - Walked from St-Jean-Pied-de-Port to Santiago de Compostela in 2023
+          - Walked Via Francigena in 2025 from Lucca to Siena
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Carleton University
+        caption: 1993 - 1996
+        sub_title: CS
         description:
 
 # Build settings
