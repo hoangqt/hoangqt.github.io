@@ -5,7 +5,7 @@ favicon: images/favicon.ico
 version: 2
 
 name: Hoang Tran
-email: donotreply@gmail.com
+github: https://github.com/hoangqt
 website: hoangqt.github.io
 
 # Dark Mode (true/false/never)
@@ -16,13 +16,7 @@ github_username: hoangqt
 about_title: About
 about_profile_image: images/iglesias.jpg
 about_content: |
-  Flexible team member with background in development, DevOps and QA.
-
-  What I bring to the table:
-
-    - Strong problem-solving skills
-    - Team player
-    - Beginner's mind
+  Informal bio.
 
 content:
   - title: Experience
