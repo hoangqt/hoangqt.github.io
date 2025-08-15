@@ -27,10 +27,6 @@ content:
         caption: April 2025-present
         description: |
           Working on mini projects using AI tooling.
-          - [Text editor](https://github.com/hoangqt/kilo)
-          - [Ansible](https://github.com/hoangqt/ansible)
-          - [Terraform](https://github.com/hoangqt/terraform)
-          - [Towers of Hanoi](https://github.com/hoangqt/towers-of-hanoi-vibe)
 
       - layout: left
         title: IBM
