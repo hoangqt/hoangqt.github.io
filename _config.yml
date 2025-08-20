@@ -47,15 +47,6 @@ content:
           - Camino Frances from St-Jean-Pied-de-Port to Santiago de Compostela
           - Via Francigena from Lucca to Siena in Italy
 
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: Carleton University
-        caption: 1993 - 1996
-        sub_title: CS
-        description:
-
 # Build settings
 remote_theme: sproogen/resume-theme
 
