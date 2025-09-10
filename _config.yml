@@ -9,24 +9,24 @@ github: https://github.com/hoangqt
 website: hoangqt.github.io
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 github_username: hoangqt
 
 about_title: About
 about_profile_image: images/iglesias.jpg
 about_content: |
-  Informal bio.
+  Seeking new opportunities as software development engineer in test (SDET) or QA.
 
 content:
   - title: Experience
     layout: list
     content:
       - layout: left
-        title: Vibe coding
+        title: Builder
         caption: April 2025-present
         description: |
-          Working on mini projects using AI tooling.
+          Building personal projects with AI.
 
       - layout: left
         title: IBM
@@ -34,7 +34,7 @@ content:
         sub_title: Software Developer
         caption: April 1998 - April 2025
         description: |
-          Worked on IBM Cognos Analytics and IBM QRadar SIEM.
+          Worked on IBM QRadar SIEM and previously, IBM Cognos Analytics.
 
   - title: Extracurricular activities
     layout: list
