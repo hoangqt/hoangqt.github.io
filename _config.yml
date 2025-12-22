@@ -16,7 +16,7 @@ github_username: hoangqt
 about_title: About
 about_profile_image: images/iglesias.jpg
 about_content: |
-  Seeking new opportunities as software development engineer in test (SDET) or QA.
+  Trying to go to bed smarter than when I woke up.
 
 content:
   - title: Experience
@@ -24,7 +24,7 @@ content:
     content:
       - layout: left
         title: Builder
-        caption: April 2025-present
+        caption: April-December 2025
         description: |
           Building personal projects with AI.
 
