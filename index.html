@@ -1,76 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hoang Tran - Software Developer">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hoang Tran - Software Developer" />
     <title>Hoang Tran</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <div class="header-content">
-                <h1 class="name">Hoang Tran</h1>
-                <p class="tagline">Trying to go to bed smarter than when I woke up.</p>
+      <!-- Header -->
+      <header class="header">
+        <div class="header-content">
+          <h1 class="name">Hoang Tran</h1>
+          <p class="tagline">
+            Trying to go to bed smarter than when I woke up.
+          </p>
+        </div>
+        <nav class="header-nav" aria-label="Main Navigation">
+          <a href="https://github.com/hoangqt" class="nav-link">GitHub</a>
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Toggle Dark Mode"
+          >
+            <svg
+              class="theme-icon"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </nav>
+      </header>
+
+      <!-- About Section -->
+      <section class="section about">
+        <h2 class="section-title">ABOUT</h2>
+        <div class="section-content">
+          <p>
+            Programmer with 20+ years of experience building enterprise systems
+            and analytical platforms.
+          </p>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section class="section experience">
+        <h2 class="section-title">EXPERIENCE</h2>
+        <div class="section-content">
+          <article class="experience-item">
+            <div class="experience-header">
+              <h3 class="experience-title">Builder</h3>
+              <span class="experience-date"
+                >Career break (April–December 2025)</span
+              >
             </div>
-            <nav class="header-nav">
-                <a href="https://github.com/hoangqt" class="nav-link">GitHub</a>
-            </nav>
-        </header>
+            <ul class="activity-list">
+              <li>Building personal projects with AI.</li>
+            </ul>
+          </article>
 
-        <!-- About Section -->
-        <section class="section about">
-            <h2 class="section-title">ABOUT</h2>
-            <div class="section-content">
-                <p>Software developer with 27 years of experience building enterprise systems and analytical platforms.</p>
+          <article class="experience-item">
+            <div class="experience-header">
+              <h3 class="experience-title">Software Developer</h3>
+              <span class="experience-date">IBM (April 1998 – April 2025)</span>
             </div>
-        </section>
+            <ul class="activity-list">
+              <li>
+                Worked on IBM QRadar SIEM and previously, IBM Cognos Analytics.
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
 
-        <!-- Experience Section -->
-        <section class="section experience">
-            <h2 class="section-title">EXPERIENCE</h2>
-            <div class="section-content">
-
-                <article class="experience-item">
-                    <div class="experience-header">
-                        <h3 class="experience-title">Builder</h3>
-                        <span class="experience-date">Career break (April–December 2025)</span>
-                    </div>
-                    <p class="experience-description">Building personal projects with AI.</p>
-                </article>
-
-                <article class="experience-item">
-                    <div class="experience-header">
-                        <h3 class="experience-title">Software Developer</h3>
-                        <span class="experience-date">IBM (April 1998 – April 2025)</span>
-                    </div>
-                    <p class="experience-description">Worked on IBM QRadar SIEM and previously, IBM Cognos Analytics.</p>
-                </article>
-
+      <!-- Extracurricular Section -->
+      <section class="section extracurricular">
+        <h2 class="section-title">EXTRACURRICULAR</h2>
+        <div class="section-content">
+          <article class="activity-item">
+            <div class="activity-header">
+              <h3 class="activity-title">Long distance walking</h3>
+              <span class="activity-date">1k+ (2023 – Present)</span>
             </div>
-        </section>
-
-        <!-- Extracurricular Section -->
-        <section class="section extracurricular">
-            <h2 class="section-title">EXTRACURRICULAR</h2>
-            <div class="section-content">
-
-                <article class="activity-item">
-                    <div class="activity-header">
-                        <h3 class="activity-title">Long distance walking</h3>
-                        <span class="activity-date">1k+ (2023 – Present)</span>
-                    </div>
-                    <ul class="activity-list">
-                        <li>Camino Frances from St-Jean-Pied-de-Port to Santiago de Compostela</li>
-                        <li>Via Francigena from Lucca to Siena in Italy</li>
-                    </ul>
-                </article>
-
-            </div>
-        </section>
-
+            <ul class="activity-list">
+              <li>
+                Camino Frances from St-Jean-Pied-de-Port to Santiago de
+                Compostela
+              </li>
+              <li>Via Francigena from Lucca to Siena in Italy</li>
+            </ul>
+          </article>
+        </div>
+      </section>
     </div>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
