@@ -124,6 +124,10 @@ body {
   color: var(--color-orange);
 }
 
+.dark-mode .theme-toggle {
+  color: var(--color-concrete);
+}
+
 .theme-icon-moon {
   display: block;
 }
