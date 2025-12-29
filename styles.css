@@ -124,6 +124,22 @@ body {
   color: var(--color-orange);
 }
 
+.theme-icon-moon {
+  display: block;
+}
+
+.theme-icon-sun {
+  display: none;
+}
+
+.dark-mode .theme-icon-moon {
+  display: none;
+}
+
+.dark-mode .theme-icon-sun {
+  display: block;
+}
+
 /* Sections */
 .section {
   display: grid;
