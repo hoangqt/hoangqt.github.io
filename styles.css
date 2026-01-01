@@ -192,6 +192,7 @@ body {
   border-bottom: 2px solid var(--color-separator);
 }
 
+.experience-item:first-child,
 .experience-item:last-child {
   border-bottom: none;
   padding-bottom: 0;
